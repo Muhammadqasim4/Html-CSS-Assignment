@@ -1,0 +1,122 @@
+/* style.css */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: white;
+    background-image: url('Background f3.png'); 
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background-color: rgba(0, 0, 0, 0.5); 
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.nav a {
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+    transition: color 0.3s;
+}
+
+.nav a:hover {
+    color: #00bfff;
+}
+
+.signup-btn {
+    padding: 10px 20px;
+    border: 1px solid white;
+    border-radius: 20px;
+    background-color: white;
+    color:black;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.signup-btn:hover {
+    background-color: white;
+    color: black;
+}
+
+main {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+    height: calc(100vh - 80px); 
+}
+
+.content h1 {
+    font-size: 4rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    
+}
+
+.content .highlight1 {
+    color: #fc00ff;
+}
+
+
+
+.content .highlight {
+    color: #00bfff;
+}
+
+.content p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.get-started-btn {
+    padding: 12px 30px;
+    border: none;
+    border-radius: 25px;
+    background-color: white;
+    color: black;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.get-started-btn:hover {
+    background-color: magenta;
+    color: yellow;
+}
+
+.scroll-indicator {
+    text-align: center;
+    font-size: 2rem;
+    animation: bounce 1.5s infinite;
+}
+
+
