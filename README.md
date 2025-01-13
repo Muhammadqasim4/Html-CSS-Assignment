@@ -10,3 +10,4 @@ Provide links to projects that are related to HTML and CSS.
 9) https://figma-3-mu.vercel.app/
 10) https://figma-4-six.vercel.app/
 11) https://html-css-assignment-roan.vercel.app/
+12) https://landing-page-indol-eta.vercel.app/
