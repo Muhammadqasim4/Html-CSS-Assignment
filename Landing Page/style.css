@@ -1,0 +1,159 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 18px;
+    
+}
+ul{
+    display: flex;
+    margin-top: 11px;
+    gap: 23px;
+    
+
+
+}
+.logo{
+    margin-top: 11px;
+
+}
+ul>li{
+    list-style-type: none;
+    
+}
+ul>li>a{
+    text-decoration: none;
+    color: black;
+}
+
+
+
+.p2{
+    display: flex;
+    justify-content: space-between;
+}
+
+.image{
+    margin-top: -260px;
+    position: relative;
+    right: 22px;
+
+
+}
+.images{
+    position: relative;
+    bottom: 22px;
+    right: 22px;
+
+}
+
+.text{
+    margin-left: 39px;
+}
+
+
+
+ 
+
+ */
+
+
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 18px;
+}
+
+ul {
+    display: flex;
+    margin-top: 11px;
+    gap: 23px;
+}
+
+.logo {
+    margin-top: 11px;
+}
+
+ul > li {
+    list-style-type: none;
+}
+
+ul > li > a {
+    text-decoration: none;
+    color: black;
+}
+
+.p2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.image {
+    margin-top: -260px;
+    position: relative;
+    right: 22px;
+}
+
+.images {
+    position: relative;
+    bottom: 22px;
+    right: 22px;
+}
+
+.text {
+    margin-left: 39px;
+}
+
+/* Responsive Design for max-width 768px */
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        align-items: center;
+        padding: 12px;
+    }
+
+    ul {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .p2 {
+        flex-direction: column;
+        align-items: center;
+        
+    }
+
+    .image {
+        margin-top: 0;
+        right: 0;
+        margin-left: 34px;
+        width: 100%; /* Adjust size as needed */
+    }
+
+    .images {
+        bottom: 0;
+        right: 0;
+        margin-left: 34px;
+        width: 100%; /* Adjust size as needed */
+    }
+
+    .text {
+        margin-left: 18px;
+        text-align: center;
+        padding: 10px;
+    }
+}
+
